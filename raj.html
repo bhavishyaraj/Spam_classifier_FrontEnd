@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>raj</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/Bootstrap.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+   
+    <style type="text/css">
+         .menu{
+             font-size: 22px;
+             padding-top: 20px;
+             padding-bottom: 15px;
+             
+
+         }
+        
+         .menu ul{
+            margin-left: 40px;
+
+         }
+
+         .menu li{
+             display: inline;
+             margin: 30px;
+             color: white;
+             
+         }
+
+         .menu li a{
+             color: white;
+             text-decoration: none;
+             
+         }
+
+         .menu li a:hover{
+             color: blue;
+            
+         }
+
+         .search{
+             font-size: 25px;
+             color: white;
+             padding-top: 20px;
+         }
+
+
+
+         #btnlanguage{
+             font-size: 30px;
+             height: 100%;
+             width: 300;
+             background-color:red;
+             cursor: pointer;
+         }
+        
+
+         section{
+             background: url(bg3.jpg);
+             background-position: center;
+             background-size: cover;
+             height: 100vh;
+             
+
+
+         }
+
+         .container{
+             max-width: 25rem;
+             width: 50%;  
+             background:transparent;
+             border-radius: 2%;
+             box-shadow:1px 3px 2px 2px grey ;
+             position:absolute;
+             
+             text-align: center;
+             margin-top: 220px;
+             margin-left: 800px;     
+             
+         }
+
+         .heading{
+             font-size: 30px;
+             font-weight: bold;
+             color:white;
+
+         }
+
+         .user-input{
+             margin: 7px;
+         }
+
+         .user-input input{
+            height: 90%;
+            width: 80%;
+            outline: none;
+            border-radius: 4px;
+            font-size: 20px;
+            padding-left: 15px;
+            letter-spacing: 0.10rem;
+            border-bottom-width: .2rem;
+         }
+        
+          
+       .button{
+           height: 50px;
+           margin: 25px;
+           
+       }
+      
+
+        .button input{
+            height: 100%;
+            width:100%;
+            outline:none;
+            background: linear-gradient(135deg,black,rgb(255, 0, 0)) ; 
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: .1rem;
+            border-radius: 3px;
+            cursor: pointer;
+
+        }
+
+        .fact{
+            font-size: 45px;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        .fact-details{
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .box{
+            max-width: 100%;
+            width: 450px;
+            background-color: transparent;
+            border-radius: 2%;
+            box-shadow:1px 3px 2px 2px grey ;
+            position:absolute;
+            margin-top: 150px;
+            margin-left: 60px;
+            
+            
+        }
+
+        .course{
+            font-size: 25px;
+            font-weight: bold;
+            color:white;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .course-details{
+            font-size: 15px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+
+        .info{
+            font-size: 30px;
+            font-weight: bold;
+            color:white;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .info-details{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .info-details-in{
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            color: red;
+
+        }
+
+        .topic1{
+            font-size: 30px;
+            font-weight: bold;
+            color:red;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        
+    </style>
+    <body>
+
+
+    <div class="row">
+        <div class="col-md-8" style="background-color: black;">
+        <div class="menu">
+                     <ul>
+                     <li><a href="#"><span>Menu</span></a></li>
+                     <li><a href="#"><span>Profile</span></a></li>
+                     <li><a href="#"><span>Home</span></a></li>
+                     <li><a href="#"><span>Blog</span></a></li>
+                     </ul>
+                     </div>
+    </div>
+    
+        <div class="col-md-4" style="background-color:black;">
+            <div class="search">
+          Search<input type="search" placeholder="Type to Search"><i class="material-icons" id=btnlanguage> search</i></input>
+            </div>
+        </div>
+        </div>
+        <section>
+        <form>
+            <div class="box">
+                <span class="fact">I AM Web Designer</span>
+               <center> <span class="fact-details">I am greatfull to come in the field of web designing</span></center>
+            </div>
+        <div class="container">
+            <span class="heading">For More Information</span>
+            <p>
+        <div class="user-input">
+        <input type="text" name="yourname" placeholder="Enter your name" required>
+        </div>
+        <div class="user-input">
+        <input type="email" name="youremail" placeholder="Enter your email" required>
+        </div>
+        <div class="user-input">
+        <input type="number" name="yourpassword" placeholder="Enter your number" required>
+        </div>
+        <div class="button">
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+    </section>
+        <div class="row">
+        <a href="#"><div class="col-md-3" style="background-color:rgb(218, 13, 13);"></a>
+        <span class="course"> HTML COURSES </span>
+        <span class="course-details">ALL the information is given here.</span>
+        </div>
+
+        <div class="col-md-3" style="background-color:rgb(190, 11, 11);">
+        <span class="course"> CSS </span>
+        <span class="course-details">All the Information is given here.</span>
+        </div>
+    
+        <div class="col-md-3" style="background-color:rgb(218, 13, 13);">
+        <span class="course">CSS ID </span>
+        <span class="course-details">All the Information is given here.</span>
+        </div>
+
+        <div class="col-md-3" style="background-color:rgb(190, 11, 11);">
+        <span class="course">Bootstrap</span>
+        <span class="course-details">All the Information is given here.</span>
+        </div>
+        </div>
+        <span class="topic1">Some Important Videos About Web Desinging</span>
+
+        <div class="row">
+        <div class="col-md-6" style="background-color: rgb(238, 231, 231);">
+
+        <span class="info-details">
+        <video width="320" height="240" controls><source src="video1.mp4" type="video/mp4"></video>
+        </span><br>
+        <span class="info-details-in">Learn Basic HTML </span><br>
+        <span class="info-details">
+        <video width="320" height="240" controls><source src="video4.mp4" type="video/mp4"></video>
+        </span><br>
+        <span class="info-details-in">Learn Basic Frameset </span>
+        </div>
+
+
+        <div class="col-md-6" style="background-color:rgb(238, 231, 231);">
+        <span class="info-details">
+        <video width="320" height="240" controls><source src="video2.mp4" type="video/mp4"></video>
+        </span><br>
+        <span class="info-details-in">Learn Basic CSS</span><br>
+        <span class="info-details">
+        <video width="320" height="240" controls><source src="video3.mp4" type="video/mp4"></video>
+        </span><br>
+        <span class="info-details-in">Learn Basic Bootstrap </span>
+            
+        
+
+              </div>
+         </div>
+   </body>
+</html>
