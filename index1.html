@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<body>
+    <div class="warpper fl">
+        <div class="main">
+            <div class="head">
+                <div style="background-color:#101013; color:white;padding:5px;">
+
+                    <center>
+                        <h1 style="color:white; letter-spacing: 2px;">Message Spam Classifier</h1><br>
+                    </center>
+                </div>
+                <div class="form fl p-3" style=" height:81vh; background:linear-gradient(135deg,rgb(2, 66, 82),rgb(15, 1, 3))">
+                    <center><div style=" color:white; font-size:xx-large; letter-spacing: 2px;">Enter your message</div></center>
+                    <div class="user-input">
+                        <form action="/predict" method="POST" class="row">
+                        <center><a href="#"><textarea style=" border-radius:5px;  font-size: 15px; width: 600px; text-align: center;" name="message" id="message"  rows="6%" placeholder="please enter your message" required></textarea></a></center>
+                        </div><br>
+                        <div class="button">
+                        <center><a href="#"><input type="submit" value="PREDICT" name="Message"  style="letter-spacing: 2px;" class="sub btn btn-primary" ></a></center>
+                        </form>
+                        </div><br>
+                       
+                    <center>
+                        <h2 style="color:rgb(238, 10, 10);margin-bottom: 50px;"> {{prediction_text}}</h2>
+                    </center>
+
+                    <div class="fixed-bottom bg-info bg-black row align-items-center" >
+                        <div class="col text-center">
+                            <a href="https://www.linkedin.com/in/imupendra/" target="_blank" style="text-decoration: none;"><p style="color:whitesmoke" > Developed by Upendra Kumar</p></a>
+                        </div>
+
+                        <div class="col text-center">
+                            <a href="https://github.com/imkushwaha/Thyroid-Disease-Detection" target="_blank" style="text-decoration: none;"><p style="color:whitesmoke" > Source Code</p></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
